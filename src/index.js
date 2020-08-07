@@ -435,7 +435,8 @@ const styles = StyleSheet.create({
         borderBottomLeftRadius: 0,
     },
     dropDown: {
-        paddingHorizontal: 10,
+        paddingLeft: 8,
+        paddingRight: 6,
         paddingVertical: 5,
         backgroundColor: '#fff',
         borderTopRightRadius: 5,
