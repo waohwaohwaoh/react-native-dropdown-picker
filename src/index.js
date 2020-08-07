@@ -238,9 +238,9 @@ class DropDownPicker extends React.Component {
                 >
                     <View style={[styles.dropDownDisplay]}>
                         {this.state.choice.icon && ! multiple && this.state.choice.icon()}
-                        <Text style={[
+                        <Text numberOfLines={1} ellipsizeMode='tail' style={[
                             this.props.labelStyle,
-                            placeholderStyle, {opacity, flex: 1, marginRight: 5},
+                            placeholderStyle, {opacity, flex: 1},
                             this.state.choice.label !== null && this.props.selectedLabelStyle,
                             this.state.choice.icon && {marginLeft: 5}
                         ]}>
