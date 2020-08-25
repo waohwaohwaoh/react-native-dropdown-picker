@@ -242,7 +242,7 @@ class DropDownPicker extends React.Component {
                             this.props.labelStyle,
                             placeholderStyle, {opacity, flex: 1},
                             this.state.choice.label !== null && this.props.selectedLabelStyle,
-                            this.state.choice.icon && {marginLeft: 5}
+                            this.state.choice.icon
                         ]}>
                             {multiple ? (
                                 this.state.choice.length > 0 ? this.getNumberOfItems() : placeholder
